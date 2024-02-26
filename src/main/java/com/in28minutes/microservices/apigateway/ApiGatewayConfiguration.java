@@ -14,8 +14,10 @@ public class ApiGatewayConfiguration {
 		
 		/*
 		 * For using custom routes, you have to disable the locator in
-		 * application.properties. We'll make use of lambda function // suppose we
-		 * want to add a requestHeader / a requestParameter, for that, use filters()		 
+		 * application.properties. 
+		 * We'll make use of lambda function. 
+		 * suppose we want to add a requestHeader / a requestParameter, 
+		 * for that, we can use filters()		 
 		 * similarly, you can add multiple other things as well thru filters()
 		 */
 		
